@@ -20,7 +20,7 @@ import { mapState } from 'vuex'
 import RecommendationGenre from '@/components/RecommendationGenre'
 
 
-const SERVER_URL = 'http://127.0.0.1:8000'
+const SERVER_URL = process.env.VUE_APP_SERVER_URL
 
 export default {
   name: 'Recommendation',

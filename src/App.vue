@@ -44,7 +44,7 @@ import Login from '@/components/Login'
 import Signup from '@/components/Signup'
 import ModalView from '@/components/ModalView'
 
-const SERVER_URL = 'http://127.0.0.1:8000'
+const SERVER_URL = process.env.VUE_APP_SERVER_URL
 
 export default {
   name: 'App',
